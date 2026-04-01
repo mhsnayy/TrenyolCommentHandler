@@ -177,5 +177,5 @@ if __name__ == "__main__":
     scraper = TrendyolBatchScraper()
 
     # Burada her ürün için kaç page çekilecek belirtilmeli
-    scraper.process_catalog(PRODUCT_CATALOG, max_pages_per_product=1)
+    scraper.process_catalog(PRODUCT_CATALOG, max_pages_per_product=15)
     scraper.export_to_json()
